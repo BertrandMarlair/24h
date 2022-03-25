@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#svg-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 850px;
+}
+
+.svg-wrapper {
+  position: absolute;
+}
+
+.svg-content-velo1 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 168px;
+  left: -123px;
+  z-index: 2;
+}
+
+.svg-content-velo2 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 540px;
+  left: 26px;
+  z-index: 2;
+}
+
+.svg-content-tour {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 379px;
+  left: 6px;
+  z-index: 2;
+}
