@@ -6,8 +6,8 @@ import reducer from './core/reducer';
 import "./index.css";
 
 export const config = {
-  distance: 100,
-  duration: 12000,
+  distance: 2600,
+  duration: 300000,
 }
 
 const defaultValue = {
